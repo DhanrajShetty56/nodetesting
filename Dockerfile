@@ -1,5 +1,5 @@
 FROM node:12.2.0-alpine
-RUN npm install -g npm@lates
+RUN npm install -g npm@latest
 WORKDIR app
 COPY . .
 RUN npm install
